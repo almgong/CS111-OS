@@ -1,0 +1,19 @@
+Author: Allen Gong, 704588620
+
+Got help from the linked socket programming page in spec and used the example in
+the mcrypt(3) documentation as a starting point for encryption/decryption.
+
+This lab contains:
+
+	client.c - the client program that will connect to a specified port
+	and optionally log + encrypt/decrypt.
+
+	server.c - the complementary server program that will accept a connection
+	from the client and relay the i/o from a shell process.
+
+	my.key - a key used for encryption/decryption.
+
+	README - this file.
+
+	Makefile - exposes clean, client, server, and dist. An all option is provided
+	but not needed per spec.
